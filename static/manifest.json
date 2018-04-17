@@ -13,7 +13,7 @@
       "type": "image/png"
     }
   ],
-  "start_url": "https://jswave.github.io/pwa-vuejs-demo/",
+  "start_url": "/pwa-vuejs-demo/index.html",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#000000",
