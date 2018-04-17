@@ -59,7 +59,7 @@ export default {
       console.log('Connected')
     })
 
-    chabok.register(`vue-demo-app`)
+    chabok.register(`09120032217`)
   }
 }
 </script>
