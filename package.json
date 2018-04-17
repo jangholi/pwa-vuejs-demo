@@ -16,6 +16,7 @@
   "dependencies": {
     "axios": "^0.18.0",
     "chabokpush": "^0.3.5",
+    "express-force-https": "^1.0.0",
     "serve-static": "^1.13.2",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"
