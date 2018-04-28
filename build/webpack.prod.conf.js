@@ -100,11 +100,16 @@ const webpackConfig = merge(baseWebpackConfig, {
         from: path.resolve(__dirname, '../static'),
         to: config.build.assetsSubDirectory,
         ignore: ['.*']
+      },
+      {
+        from: path.resolve(__dirname, '../node_modules/chabokpush/dist/ChabokSDKWorker.js'),
+        to: config.build.assetsRoot,
+        ignore: ['.*']
       }
     ]),
     // service worker caching
     new SWPrecacheWebpackPlugin({
-      cacheId: 'demo-vue',
+      cacheId: 'demo',
       filename: 'service-worker.js',
       staticFileGlobs: ['dist/**/*.{js,html,css}'],
       minify: true,
