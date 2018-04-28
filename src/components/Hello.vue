@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-   
+
    <div id="app">
   <ul>
     <div>{{status}}</div>
@@ -8,8 +8,8 @@
       <p>{{message.content}}</p>
   </li>
   </ul>
-</div> 
-    
+</div>
+
   </div>
 </template>
 
@@ -25,10 +25,10 @@ export default {
   },
   created () {
     const authConfig = {
-      appId: 'chabok-starter',
-      apiKey: 'ae98537a4fb4957277374083a356d2ceb63372c4',
-      username: 'chabok-starter',
-      password: 'chabok-starter',
+      appId: 'bijivekon',
+      apiKey: '76ddb7bf87215583ee30ba2232ccaa30abe7cdb6',
+      username: 'bosesacuw',
+      password: 'ifmalboti',
       devMode: true
     }
     const options = {
@@ -59,7 +59,7 @@ export default {
       console.log('Connected')
     })
 
-    chabok.register(`09120032217`)
+    chabok.register(`09194491940`)
   }
 }
 </script>
