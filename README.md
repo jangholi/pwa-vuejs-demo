@@ -2,13 +2,11 @@
 push in dev barnch
 
 
-#npm install (in dev branch)
+#npm install (in master branch)
 
-#npm run build (in dev branch)
+#npm run build (in master branch)
 
-#send dist folder (in master branch)
-
-#show master branch
+#show dist folder in url
 
 
 
