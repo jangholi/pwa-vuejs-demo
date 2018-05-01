@@ -15,6 +15,7 @@
   ],
   "start_url": "/index.html",
   "display": "standalone",
+  "gcm_sender_id": "BE1mAxNaNRBTyoMoE4JoxdK2q4HxVMyYq8HFfIuIo6KQVvcELHuXcmXM86aMD89XjdZguzmwotOkBBDlRUrhcIw",
   "orientation": "portrait",
   "background_color": "#000000",
   "theme_color": "#4DBA87"
