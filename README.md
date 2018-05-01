@@ -1,7 +1,13 @@
 ## Jenkins
 #npm install in dev branch
+
+
 #npm run build in dev branch
+
+
 #send dist folder in master branch
+
+
 #show master branch
 
 
